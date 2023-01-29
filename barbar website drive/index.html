@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="banner">
+    <img src="logo.png" class="logo"> 
+    <div class="banner-text">
+        <h1>VIP Barbar</h1>
+        <p>Hagajinka Timahagu Waa Hagajinta Noolashada</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>Ka bixid</a>
+            <a href="#"><span></span>Wax badan Ka ogow</a>
+        </div>
+        
+    </div>
+       
+
+   </section>
+   
+   </div>
+   <div class="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Meet Us</a></li>
+            <li><a href="#">Location</a></li>
+        </ul> 
+    </nav>
+   </div>
+   <div class="menuBtn">
+    <img src="menu.png" class="menu">
+
+   </div>
+<script>
+     var sideNav = document.getElementsByClass("sideNav")
+     var menuBtn = document.getElementsByClass("menuBtn")
+     var menu  = document.getElementsByClass("menu")
+
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+        sideNav.style.right = "-250px";
+    }
+}
+
+</script>
+</body>
+</html>
+
+
+
+
